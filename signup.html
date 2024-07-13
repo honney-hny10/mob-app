@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Page</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f0f0f0;
+		}
+		.signup-container {
+			width: 300px;
+			background-color: #fff;
+			padding: 30px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			margin: 50px auto;
+		}
+		.signup-form {
+			margin-top: 20px;
+		}
+		.signup-form input[type="text"], .signup-form input[type="email"], .signup-form input[type="password"] {
+			width: 100%;
+			padding: 15px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		.signup-form input[type="submit"] {
+			width: 100%;
+			padding: 15px;
+			background-color: #34408b;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.signup-form input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+		.signup-form input[type="text"], .signup-form input[type="email"] {
+			margin-bottom: 20px;
+		}
+		.signup-form input[type="text"], .signup-form input[type="email"], .signup-form input[type="password"] {
+			padding: 15px;
+		}
+		.signup-form input[type="text"], .signup-form input[type="email"], .signup-form input[type="password"], .signup-form input[type="submit"] {
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="signup-container">
+		<h2>Signup</h2>
+		<form class="signup-form">
+			<input type="text" placeholder="Name" required>
+			<input type="email" placeholder="Email" required>
+			<input type="password" placeholder="Password" required>
+			<input type="password" placeholder="Confirm Password" required>
+			<input type="submit" value="Signup">
+		</form>
+	</div>
+</body>
+</html>
